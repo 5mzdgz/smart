@@ -1,0 +1,17 @@
+/* pages/component/mine/mine.wxss */
+page {
+  background: #f6f6f6;
+}
+
+.mine-grid {
+  padding: 30rpx 60rpx;
+  background: #fff;
+  margin-top: -20rpx;
+  border-top-right-radius: 25rpx;
+  border-top-left-radius: 25rpx;
+  margin-bottom: 20rpx;
+}
+
+.authentication {
+  margin-bottom: 20rpx;
+}

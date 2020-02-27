@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "component_home": "/pages/home/home",
+    "component_find": "/pages/find/find",
+    "component_scan": "/pages/scan/scan",
+    "component_business": "/pages/business/business",
+    "component_mine": "/pages/mine/mine"
+  }
+}

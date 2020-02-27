@@ -1,0 +1,10 @@
+<!--components/home/home-business/home-business.wxml-->
+<view class="business flex-r">
+  <view class="business-box flex-c" wx:for="{{businessList}}" wx:key="index">
+    <view class="img-box">
+      <image src="{{item.businessImg}}"></image>
+    </view>
+    <view class="title">{{item.businessName}}</view>
+    <view class="sub">{{item.businessSub}}</view>
+  </view>
+</view>

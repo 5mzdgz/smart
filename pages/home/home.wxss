@@ -1,0 +1,41 @@
+/* pages/component/test/test.wxss */
+page {
+  background: #f6f6f6;
+}
+
+.swiper-banner {
+  height: 350rpx;
+  background: primary;
+}
+
+.grid-box {
+  padding: 40rpx 15rpx 15rpx 15rpx;
+  margin-top: -50rpx;
+  background: #fff;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+
+.bottom-box {
+  margin-top: 20rpx;
+  background: #fff;
+  padding: 10rpx 0;
+}
+
+.news-box {
+  font-size: 26rpx;
+  padding: 0 50rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  margin: 10rpx 0;
+}
+
+.news-swiper {
+  width: 580rpx;
+  margin-left: 30rpx;
+}
+
+.recommend-activity {
+  padding: 20rpx 0;
+}

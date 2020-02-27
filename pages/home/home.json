@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "v-swiper": "/components/common/swiper/swiper",
+    "v-grid": "/components/common/grid/grid",
+    "v-cell": "/components/common/cell/cell",
+    "v-card": "/components/common/card/card",
+    "v-product-list": "/components/common/product-list/product-list",
+    "home-business": "/components/home/home-business/home-business"
+  }
+}

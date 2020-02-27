@@ -1,0 +1,9 @@
+<!--pages/component/test/test.wxml-->
+<navigation id='Navigation' show-icon='{{showIcon}}' title="{{title}}">
+</navigation>
+<view class="container">
+  <view class="find-item" wx:for="{{findArr}}" wx:key="unique">
+    <v-cell cellData="{{item.cellData}}"></v-cell>
+    <v-grid gridArr="{{item.gridArr}}"></v-grid>
+  </view>
+</view>

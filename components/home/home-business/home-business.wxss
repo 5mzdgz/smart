@@ -1,0 +1,27 @@
+/* components/home/home-business/home-business.wxss */
+.business {
+  padding: 0 10rpx;
+  font-size: 26rpx;
+}
+
+.business-box {
+  flex: 1;
+  padding: 30rpx 0;
+}
+
+.img-box {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+  background: #ddd;
+  margin-bottom: 25rpx;
+}
+
+.img-box image {
+  width: 100%;
+  height: 100%;
+}
+
+.business-box .sub {
+  color: #aaa;
+}

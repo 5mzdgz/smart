@@ -1,0 +1,22 @@
+<!--pages/component/test/test.wxml-->
+<navigation id='Navigation' show-icon='{{showIcon}}' title="{{title}}">
+</navigation>
+<view class="container">
+  <mine-user userData="{{userData}}" />
+  <view class="mine-grid">
+    <v-grid gridArr="{{gridArr}}"></v-grid>
+  </view>
+  <view class="authentication">
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+  </view>
+  <view class="authentication">
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+    <v-cell cellData="{{cellData}}"></v-cell>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+<!--components/mine/mine-user/mine-user.wxml-->
+<view class="user flex-r">
+  <view class="img-box">
+    <image src="{{userData.headImg}}"></image>
+  </view>
+  <view class="middle">
+    <view class="user-name ellipsis_1">{{userData.userName}}</view>
+    <view class="autograph ellipsis_1">{{userData.autograph}}</view>
+  </view>
+  <text class="iconfont icon-xiangyou"></text>
+</view>

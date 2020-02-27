@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "v-grid": "/components/common/grid/grid",
+    "v-cell": "/components/common/cell/cell"
+  }
+}

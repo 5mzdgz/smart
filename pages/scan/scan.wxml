@@ -1,0 +1,10 @@
+<!--pages/component/test/test.wxml-->
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="{{title}}"
+>
+</navigation>
+<view class="container">
+  扫一扫
+</view>

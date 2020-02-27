@@ -1,0 +1,4 @@
+/* pages/component/find/find.wxss */
+.find-item {
+  margin-bottom: 20rpx;
+}

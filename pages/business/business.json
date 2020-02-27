@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "v-swiper": "/components/common/swiper/swiper",
+    "v-sticky": "/components/common/sticky/sticky"
+  }
+}

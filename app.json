@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/tabbar/index",
+    "pages/mine/mine",
+    "pages/business/business"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#ddd",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#aaa"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,35 @@
+<!--pages/component/test/test.wxml-->
+<navigation id='Navigation' show-icon='{{showIcon}}' title="{{title}}">
+</navigation>
+<view class="container">
+  <view class="swiper-banner">
+    <v-swiper swiperData="{{swiperData}}"></v-swiper>
+  </view>
+  <view class="grid-box">
+    <v-grid gridArr="{{gridArr}}"></v-grid>
+  </view>
+  <view class="bottom-box">
+    <view class="news-box flex-r">
+      <text class="iconfont icon-guangbo"></text>
+      <view class="news-swiper">
+        <v-swiper swiperData="{{newsData}}"></v-swiper>
+      </view>
+    </view>
+    <view class="recommend-activity">
+      <v-cell cellData="{{cardData.cellData}}"></v-cell>
+      <v-card cardData="{{cardData}}"></v-card>
+    </view>
+    <view class="recommend-activity">
+      <v-cell cellData="{{cardData.cellData}}"></v-cell>
+      <v-card cardData="{{cardData}}"></v-card>
+    </view>
+    <view class="recommend-activity">
+      <v-cell cellData="{{cardData.cellData}}"></v-cell>
+      <v-product-list productList="{{productList}}"></v-product-list>
+    </view>
+    <view class="recommend-activity">
+      <v-cell cellData="{{businessData.cellData}}"></v-cell>
+      <home-business businessList="{{businessData.businessList}}"></home-business>
+    </view>
+  </view>
+</view>
